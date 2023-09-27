@@ -1,0 +1,60 @@
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+table, td {
+    border: 1px solid #333;
+}
+
+td {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #333;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+td.given {
+    background-color: #ddd;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0074cc; /* Zaktualizowany kolor tła */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005aa7;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+
+
+.given {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
